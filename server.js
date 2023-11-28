@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 })
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://alex:Alex123.@cluster1.arj51va.mongodb.net', {
+mongoose.connect('mongodb+srv://alex:alex123.@cluster1.arj51va.mongodb.net', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log('MongoDB Connected'))
